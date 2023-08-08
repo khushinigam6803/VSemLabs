@@ -1,0 +1,44 @@
+student@dblab-cp14:~/210905362/Lab2$ gcc -o q1 q1.c
+student@dblab-cp14:~/210905362/Lab2$ ./q1
+sample.c 	 	-rw-rw-r--
+
+sample 	 	-rwxrwxr-x
+
+q1 	 	-rwxrwxr-x
+
+q1.c 	 	-rw-rw-r--
+
+student@dblab-cp14:~/210905362/Lab2$ gcc -o q2 q2.c
+student@dblab-cp14:~/210905362/Lab2$ ./q2
+Directory scanof current one:
+sample.c
+q2
+sample
+q2.c
+q1
+q1.c
+Done.
+
+student@dblab-cp14:~/210905362/Lab2$ ./aq1
+.
+..
+subdirectorytest1
+subdirectorytest2
+
+student@dblab-cp14:~/210905362/Lab2$ ./aq2
+Do you want to remove file 'sample.c'? (y/n): n
+Do you want to remove file 'subdirectorytest2'? (y/n): n
+Do you want to remove file 'q2'? (y/n): n
+Do you want to remove file 'aq1.c'? (y/n): n
+Do you want to remove file 'sample'? (y/n): n
+Do you want to remove file 'aq2.c'? (y/n): n
+Do you want to remove file 'aq1'? (y/n): n
+Do you want to remove file 'subdirectorytest1'? (y/n): n
+Do you want to remove file 'q2.c'? (y/n): n
+Do you want to remove file '.'? (y/n): n
+Do you want to remove file 'q1'? (y/n): n
+Do you want to remove file 'aq2'? (y/n): n
+Do you want to remove file 'test.txt'? (y/n): y
+File 'test.txt' removed successfully.
+Do you want to remove file '..'? (y/n): n
+Do you want to remove file 'q1.c'? (y/n): n
